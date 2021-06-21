@@ -8,4 +8,14 @@
 - 📫 How to reach me: laqieer@126.com
 - 😄 Pronouns: secret!
 
-![Metrics](https://github.com/laqieer/laqieer/blob/main/github-metrics.svg)
+![Metrics](https://github.com/laqieer/laqieer/blob/main/metrics.classic.svg)
+
+![Achievements](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.achievements.svg)
+
+![Languages](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.languages.svg)
+
+![Calendar](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.isocalendar.fullyear.svg)
+
+![Followers](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.people.followers.svg)
+
+![Sponsors](https://github.com/laqieer/laqieer/blob/main/metrics.sponsors.svg)
