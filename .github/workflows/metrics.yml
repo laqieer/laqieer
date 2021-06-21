@@ -103,24 +103,6 @@ jobs:
           delay: 120
 
       # ======================================================================================
-      # 📜 Licenses
-
-      # List permissions, limitations and conditions of licenses and dependencies
-      - name: 📜 Licenses
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.licenses.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          template: repository
-          repo: metrics
-          plugin_licenses: yes
-          plugin_licenses_setup: npm ci
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 120
-
-      # ======================================================================================
       # 🧑‍🤝‍🧑 People plugin
 
       # Display followers
