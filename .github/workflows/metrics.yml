@@ -49,25 +49,6 @@ jobs:
           delay: 120
 
       # ======================================================================================
-      # 💡 Coding habits
-
-      # Display coding habits and recent activity (setup timezone for accurate metrics)
-      - name: 💡 Habits plugin
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          config_timezone: Asia/Shanghai
-          output_action: pull-request
-          delay: 120
-
-      # ======================================================================================
       # 📅 Isometric commit calendar
 
       # Display isometric calendar (365 days)
