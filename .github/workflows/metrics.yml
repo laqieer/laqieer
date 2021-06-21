@@ -49,23 +49,6 @@ jobs:
           delay: 120
 
       # ======================================================================================
-      # 🏅 Contributors
-
-      - name: 🏅 Contributors plugin
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.contributors.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          template: repository
-          repo: metrics
-          plugin_contributors: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 120
-
-      # ======================================================================================
       # 💡 Coding habits
 
       # Display coding habits and recent activity (setup timezone for accurate metrics)
@@ -80,24 +63,7 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          config_timezone: Europe/Paris
-          output_action: pull-request
-          delay: 120
-
-      # ======================================================================================
-      # 🙋 Introduction
-
-      # Display introduction (user)
-      - name: 🙋 Introduction plugin
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.introduction.svg
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          user: github
-          base: header
-          plugin_introduction: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          config_timezone: Asia/Shanghai
           output_action: pull-request
           delay: 120
 
@@ -181,65 +147,8 @@ jobs:
           base: ""
           plugin_people: yes
           plugin_people_types: sponsors
-          plugin_people_sponsors_custom: lowlighter, iamsainikhil #, yutkat
           plugin_people_size: 48
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           config_display: large
           output_action: pull-request
           delay: 120
-          
-      # Contributors
-      - name: 🧑‍🤝‍🧑 People plugin (contributors)
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.contributors.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          template: repository
-          user: lowlighter
-          repo: metrics
-          plugin_people: yes
-          plugin_people_types: contributors
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          config_display: large
-          output_action: pull-request
-          delay: 120
-          
-      # ======================================================================================
-      # 📸 Website screenshot
-
-      # Display a website screenshot
-      - name: 📸 Website screenshot
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.screenshot.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_screenshot: yes
-          plugin_screenshot_title: laqieer's website
-          plugin_screenshot_url: https://laqieer.github.io/
-          plugin_screenshot_selector: "#comic img"
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 120
-
-
-      # ======================================================================================
-      # 🧮 Repositories traffic
-
-      # Display number of repositories views (this is part of base content "repositories" section, so you need to enable it)
-      # Note that a "repo" scope is required
-      - name: 🧮 Traffic plugin
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.traffic.svg
-          token: ${{ secrets.METRICS_BOT_TOKEN }}
-          base: repositories
-          plugin_traffic: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
-          output_action: pull-request
-          delay: 120
-          
