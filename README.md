@@ -9,14 +9,4 @@
 - 😄 Pronouns: secret!
 - 🌐 Website: https://laqieer.github.io/
 
-![Metrics](https://github.com/laqieer/laqieer/blob/main/metrics.classic.svg)
-
-![Achievements](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.achievements.svg)
-
-![Languages](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.languages.svg)
-
-![Calendar](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.isocalendar.fullyear.svg)
-
-![Followers](https://github.com/laqieer/laqieer/blob/main/metrics.plugin.people.followers.svg)
-
-![Sponsors](https://github.com/laqieer/laqieer/blob/main/metrics.sponsors.svg)
+![Metrics](https://metrics.lecoq.io/laqieer?template=classic&isocalendar=1&achievements=1&languages=1&people=1&isocalendar.duration=full-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&people.limit=24&people.size=28&people.types=followers&people.identicons=false&people.shuffle=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&config.timezone=Asia%2FShanghai)
