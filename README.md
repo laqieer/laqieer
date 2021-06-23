@@ -7,6 +7,7 @@
 - 💬 Ask me about GBA development or reverse engineering
 - 📫 How to reach me: laqieer@126.com
 - 😄 Pronouns: secret!
+- 🌐 Website: https://laqieer.github.io/
 
 ![Metrics](https://github.com/laqieer/laqieer/blob/main/metrics.classic.svg)
 
