@@ -9,4 +9,6 @@
 - 😄 Pronouns: secret!
 - 🌐 Website: https://laqieer.github.io/
 
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=laqieer)](https://github.com/anuraghazra/github-readme-stats)
+
 ![Metrics](https://metrics.lecoq.io/laqieer?template=classic&isocalendar=1&achievements=1&languages=1&people=1&isocalendar.duration=full-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&people.limit=24&people.size=28&people.types=followers&people.identicons=false&people.shuffle=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&config.timezone=Asia%2FShanghai)
