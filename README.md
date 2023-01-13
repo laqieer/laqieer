@@ -9,10 +9,8 @@
 - 😄 Pronouns: secret!
 - 🌐 Website: https://laqieer.github.io/
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=laqieer)](https://github.com/anuraghazra/github-readme-stats)
-
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=laqieer&theme=vue)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=laqieer&theme=vue)![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=laqieer&theme=vue)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=laqieer&theme=vue)![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=laqieer&theme=vue)
 
-![Metrics](https://metrics.lecoq.io/laqieer?template=classic&isocalendar=1&achievements=1&languages=1&people=1&isocalendar.duration=full-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&people.limit=24&people.size=28&people.types=followers&people.identicons=false&people.shuffle=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&config.timezone=Asia%2FShanghai)
+![Metrics](https://metrics.lecoq.io/laqieer?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&people=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&people=false&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers&people.shuffle=false&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FShanghai)
